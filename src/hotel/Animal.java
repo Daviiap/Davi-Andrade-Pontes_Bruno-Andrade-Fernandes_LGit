@@ -19,21 +19,21 @@ public class Animal {
 		return this.tipo;
 	}
 
-	public Integer getIdade() {
+	public int getIdade() {
 		return this.idade;
 	}
 
-//	public void setNome(String novoNome) {
-//		this.nome = novoNome;
-//	}
-//
-//	public void setTipo(String novoTipo) {
-//		this.tipo = novoTipo;
-//	}
-//
-//	public void setIdade(int novaIdade) {
-//		this.idade = novaIdade;
-//	}
+	public void setNome(String novoNome) {
+		this.nome = novoNome;
+	}
+
+	public void setTipo(String novoTipo) {
+		this.tipo = novoTipo;
+	}
+
+	public void setIdade(int novaIdade) {
+		this.idade = novaIdade;
+	}
 
 	@Override
 	public int hashCode() {
