@@ -1,7 +1,7 @@
 package hotel;
 
 /**
- * Laboratório de Programação 2 - Lab git
+ * LaboratÃ³rio de ProgramaÃ§Ã£o 2 - Lab git
  * 
  * @author Bruno Andrade Fernandes - 119110378
  */
@@ -37,6 +37,6 @@ public class Estadia {
 	}
 
 	public String toString() {
-		return this.getNome() + ", " + this.getTipo() + ", " + this.dias + " dias com o preço de R$ " + this.getValor();
+		return this.getNome() + ", " + this.getTipo() + ", " + this.dias + " dias com o preï¿½o de R$ " + this.getValor();
 	}
 }
